@@ -7,10 +7,10 @@
 This repository contains the practical implementation of **Docker Fundamentals**. The lab focuses on understanding containerization by running official images, building custom Docker images for a Node.js application, and managing data persistence using Volumes and Bind Mounts.
 
 ### ✨ Key Features
-* [cite_start]**Containerization**: Running official Nginx and custom Node.js containers[cite: 26, 47].
-* [cite_start]**Custom Images**: Building and optimizing Docker images using a `Dockerfile`[cite: 49].
-* [cite_start]**Data Persistence**: Using **Docker Volumes** to persist data across container restarts[cite: 71, 73].
-* [cite_start]**Host-Container Sync**: Implementing **Bind Mounts** to share files between the host and container for development[cite: 85, 87].
+* **Containerization**: Running official Nginx and custom Node.js containers.
+* **Custom Images**: Building and optimizing Docker images using a `Dockerfile`.
+* **Data Persistence**: Using **Docker Volumes** to persist data across container restarts.
+* **Host-Container Sync**: Implementing **Bind Mounts** to share files between the host and container for development.
 
 ---
 
@@ -27,8 +27,8 @@ This repository contains the practical implementation of **Docker Fundamentals**
 ## 📂 Project Structure
 ```text
 my-docker-app/
-├── Dockerfile          # Configuration to build the image [cite: 55]
-└── index.js            # Simple Node.js Hello World application [cite: 54]
+├── Dockerfile          # Configuration to build the image 
+└── index.js            # Simple Node.js Hello World application 
 ```
 
 ## 🚀 Execution & Evidence
